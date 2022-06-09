@@ -5,27 +5,21 @@ export const Navbar = () => {
 	return (
 		<>
 			<nav className='nav container d-flex justify-content-between'>
-				<div className='navegador'>
-					<ul>
-						<li>
-							<a href='#'>Home</a>
-						</li>
-						<li>
-							<a href='#conocimiento'>Conocimientos</a>
-						</li>
-						<li>
-							<a href='#experiencia'>Experiencia</a>
-						</li>
-						<li>
-							<a href='#'>Estudios</a>
-						</li>
-						<li>
-							<a href='#'>Proyectos</a>
-						</li>
-						<li>
-							<a href='#'>Contacto</a>
-						</li>
-					</ul>
+				<div className='d-flex'>
+					<h3>GoingOut</h3>
+					<div className='navegador'>
+						<ul>
+							<li>
+								<a href='#'>Nuestro producto</a>
+							</li>
+							<li>
+								<a href='#conocimiento'>Equipo</a>
+							</li>
+							<li>
+								<a href='#experiencia'>Contacto</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 				<div className='buttons'>
 					<button className='btn btn-secondary' disabled>
