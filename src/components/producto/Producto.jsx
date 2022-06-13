@@ -20,7 +20,9 @@ export const Producto = () => {
 
 				{/* inicio del timeline */}
 
-				<h2 className='pasos'>Modo de uso</h2>
+				<h2 className='pasos' data-aos='fade-up' data-aos-duration='4000'>
+					Modo de uso
+				</h2>
 
 				<div class='timeline'>
 					<div
