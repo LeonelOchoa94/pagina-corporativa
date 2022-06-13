@@ -8,6 +8,7 @@
 
 .perfiles {
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .perfil-izquierda {
@@ -17,10 +18,29 @@
 	margin-left: 100px;
 }
 
+.perfil-derecha {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-left: 100px;
+}
+
+.perfil-derecha img {
+	width: 30%;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	box-shadow: 25px 27px 24px -1px rgba(0, 0, 0, 0.51);
+	-webkit-box-shadow: 25px 27px 24px -1px rgba(0, 0, 0, 0.51);
+	-moz-box-shadow: 25px 27px 24px -1px rgba(0, 0, 0, 0.51);
+}
+
 .perfil-izquierda img {
 	width: 30%;
 	border-radius: 20px;
 	margin-bottom: 20px;
+	box-shadow: -22px 27px 24px -1px rgba(0, 0, 0, 0.51);
+	-webkit-box-shadow: -22px 27px 24px -1px rgba(0, 0, 0, 0.51);
+	-moz-box-shadow: -22px 27px 24px -1px rgba(0, 0, 0, 0.51);
 }
 
 .info {

@@ -3,10 +3,10 @@ import './styles.css';
 export const Equipo = () => {
 	return (
 		<>
-			<div className='container'>
+			<div className='container mb-3'>
 				<h1 className='title-equipo'>La gente detrás de la magia:</h1>
 				<div className='perfiles container'>
-					<div className='perfil-izquierda'>
+					<div className='perfil-izquierda' data-aos='fade-up' data-aos-anchor-placement='center-center'>
 						<img
 							src='https://media-exp1.licdn.com/dms/image/C4D03AQHFI-bnvI7Nag/profile-displayphoto-shrink_200_200/0/1650671277114?e=1660176000&v=beta&t=_puVmxniKGWSO5LZimKRV3_m7dT4YO-OvsvKofWWHg4'
 							alt='Foto Leo'
@@ -21,7 +21,7 @@ export const Equipo = () => {
 							</h3>
 						</div>
 					</div>
-					<div className='perfil-izquierda'>
+					<div className='perfil-derecha' data-aos='fade-up' data-aos-anchor-placement='center-center'>
 						<div className='info'>
 							<h1>Lucas Basualdo</h1>
 							<h3>Edad: 26 años</h3>
@@ -36,7 +36,7 @@ export const Equipo = () => {
 							alt='Foto Leo'
 						/>
 					</div>
-					<div className='perfil-izquierda'>
+					<div className='perfil-izquierda' data-aos='fade-up' data-aos-anchor-placement='center-center'>
 						<img
 							src='https://media-exp1.licdn.com/dms/image/C4D03AQHV6vMGXnB2Lw/profile-displayphoto-shrink_200_200/0/1648046606070?e=1660176000&v=beta&t=du4jP6LE3DnAfKq7iTG2WuXS7WylQkBon4-dLPawigs'
 							alt='Foto Leo'
@@ -51,7 +51,7 @@ export const Equipo = () => {
 							</h3>
 						</div>
 					</div>
-					<div className='perfil-izquierda'>
+					<div className='perfil-derecha' data-aos='fade-up' data-aos-anchor-placement='center-center'>
 						<div className='info'>
 							<h1>Oscar Gimenez</h1>
 							<h3>Edad: 25 años</h3>
@@ -67,6 +67,11 @@ export const Equipo = () => {
 						/>
 					</div>
 				</div>
+				<h1>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum assumenda velit officiis incidunt. Hic
+					dignissimos ducimus explicabo saepe culpa alias temporibus excepturi sit recusandae consectetur maxime,
+					aliquid, voluptate vero!
+				</h1>
 			</div>
 		</>
 	);
