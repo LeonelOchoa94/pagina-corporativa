@@ -4,6 +4,7 @@ import './index.css';
 import { Navbar } from './components/navbar/Navbar';
 import { Intro } from './components/intro/Intro';
 import { Producto } from './components/producto/Producto';
+import { Equipo } from './components/equipo/Equipo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,5 +12,6 @@ root.render(
 		<Navbar />
 		<Intro />
 		<Producto />
+		<Equipo />
 	</>
 );
