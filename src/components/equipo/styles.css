@@ -32,6 +32,12 @@
 	box-shadow: 25px 27px 24px -1px rgba(0, 0, 0, 0.51);
 	-webkit-box-shadow: 25px 27px 24px -1px rgba(0, 0, 0, 0.51);
 	-moz-box-shadow: 25px 27px 24px -1px rgba(0, 0, 0, 0.51);
+	transition: 1s all;
+}
+
+.perfil-derecha img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .perfil-izquierda img {
@@ -41,6 +47,12 @@
 	box-shadow: -22px 27px 24px -1px rgba(0, 0, 0, 0.51);
 	-webkit-box-shadow: -22px 27px 24px -1px rgba(0, 0, 0, 0.51);
 	-moz-box-shadow: -22px 27px 24px -1px rgba(0, 0, 0, 0.51);
+	transition: 1s all;
+}
+
+.perfil-izquierda img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .info {
