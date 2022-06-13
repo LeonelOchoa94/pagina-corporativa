@@ -67,13 +67,6 @@ export const Producto = () => {
 					</div>
 				</div>
 				{/* Fin del timeline */}
-				<div>
-					<h3>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum sunt dolores nisi quaerat inventore
-						obcaecati! Dolor, assumenda dolores exercitationem sapiente suscipit repudiandae hic. Ratione perferendis
-						velit accusantium illum saepe tenetur?
-					</h3>
-				</div>
 			</div>
 		</>
 	);
