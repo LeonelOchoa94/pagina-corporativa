@@ -7,8 +7,17 @@
 	width: 100%;
 }
 
+.pasos {
+	font-size: 4rem;
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5rem;
+	width: 100%;
+}
+
 .contenido-producto {
-	margin-bottom: 10rem;
+	margin-bottom: 5rem;
 }
 
 .title-uso {
@@ -52,4 +61,84 @@
 }
 .paso-centro h4 {
 	font-size: 40px;
+}
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline {
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.timeline::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 6px;
+	background: #fff;
+	left: 50%;
+	margin-left: -3px;
+}
+
+.container-timeline {
+	padding: 10px 40px;
+	position: relative;
+	width: 50%;
+}
+
+.container-timeline::after {
+	content: '';
+	position: absolute;
+	top: 15px;
+	right: -12px;
+	width: 25px;
+	height: 25px;
+	background: #fff;
+	border-radius: 50%;
+	border: 4px solid #ff8c84;
+}
+
+.left {
+	left: 0;
+}
+
+.right {
+	left: 50%;
+}
+
+.right::after {
+	left: -12px;
+}
+
+.left::before {
+	content: '';
+	height: 0px;
+	width: 0px;
+	position: absolute;
+	top: 22px;
+	right: 30px;
+	border: 10px solid #ff8c84;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent #ff8c84;
+}
+
+.right::before {
+	content: '';
+	height: 0px;
+	width: 0px;
+	position: absolute;
+	top: 22px;
+	left: 30px;
+	border: 10px solid #ff8c84;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent #ff8c84 transparent transparent;
+}
+
+.content {
+	padding: 20px 30px;
+	background: #ff8c84;
+	border-radius: 6px;
 }

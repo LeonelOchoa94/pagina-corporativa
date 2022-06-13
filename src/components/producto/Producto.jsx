@@ -17,26 +17,61 @@ export const Producto = () => {
 						alias nemo cupiditate.
 					</h3>
 				</div>
-				<div data-aos='fade-down' data-aos-easing='linear' data-aos-duration='1000'>
-					<h2 className='title-uso'>Modo de uso</h2>
+
+				{/* inicio del timeline */}
+
+				<h2 className='pasos'>Modo de uso</h2>
+
+				<div class='timeline'>
+					<div
+						class='container-timeline left'
+						data-aos='fade-right'
+						data-aos-offset='300'
+						data-aos-easing='ease-in-sine'>
+						<div class='content'>
+							<h2>Paso 1:</h2>
+							<h3>Seleccioná tu restaurant favorito</h3>
+						</div>
+					</div>
+					<div
+						class='container-timeline right'
+						data-aos='fade-left'
+						data-aos-offset='300'
+						data-aos-easing='ease-in-sine'>
+						<div class='content'>
+							<h2>Paso 2:</h2>
+							<h3>Elegí el lugar que más te guste</h3>
+						</div>
+					</div>
+					<div
+						class='container-timeline left'
+						data-aos='fade-right'
+						data-aos-offset='300'
+						data-aos-easing='ease-in-sine'>
+						<div class='content'>
+							<h2>Paso 3:</h2>
+							<h3>Realizá la reserva y abonala por MercadoPago</h3>
+						</div>
+					</div>
+					<div
+						class='container-timeline right'
+						data-aos='fade-left'
+						data-aos-offset='300'
+						data-aos-easing='ease-in-sine'>
+						<div class='content'>
+							<h2>LISTO!</h2>
+							<h2>Tu reserva quedó confirmada y podrás visualizarla en la aplicación</h2>
+						</div>
+					</div>
 				</div>
-				<div className='paso-izq' data-aos='fade-right' data-aos-offset='300' data-aos-easing='ease-in-sine'>
-					<h4 className=''>Paso 1: Seleccioná tu restaurant favorito</h4>
+				{/* Fin del timeline */}
+				<div>
+					<h3>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum sunt dolores nisi quaerat inventore
+						obcaecati! Dolor, assumenda dolores exercitationem sapiente suscipit repudiandae hic. Ratione perferendis
+						velit accusantium illum saepe tenetur?
+					</h3>
 				</div>
-				<div className='paso-der' data-aos='fade-left' data-aos-offset='300' data-aos-easing='ease-in-sine'>
-					<h4 className=''>Paso 2: Elegí el lugar que más te guste</h4>
-				</div>
-				<div className='paso-izq' data-aos='fade-right' data-aos-offset='300' data-aos-easing='ease-in-sine'>
-					<h4 className=''>Paso 3: Realizá la reserva y abonala por MercadoPago</h4>
-				</div>
-				<div className='paso-centro' data-aos='fade-up' data-aos-offset='300' data-aos-easing='ease-in-sine'>
-					<h4 className=''>LISTO! Tu reserva quedó confirmada y podrás visualizarla en la aplicación</h4>
-				</div>
-				<h1>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque rerum cumque accusantium rem voluptate
-					dolore, maiores expedita atque voluptatem minus ad nobis veritatis. Est nam qui ex reprehenderit sit
-					voluptate!
-				</h1>
 			</div>
 		</>
 	);
