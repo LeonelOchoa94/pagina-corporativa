@@ -1,0 +1,55 @@
+.title-producto h1 {
+	font-size: 4rem;
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+	margin-top: 20rem;
+	width: 100%;
+}
+
+.contenido-producto {
+	margin-bottom: 10rem;
+}
+
+.title-uso {
+	font-size: 3rem;
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.paso-izq {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+}
+.paso-izq h4 {
+	font-size: 40px;
+	width: 40%;
+}
+
+.paso-der {
+	font-size: 3rem;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+}
+
+.paso-der h4 {
+	font-size: 40px;
+	width: 40%;
+}
+
+.paso-centro {
+	font-size: 4rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+.paso-centro h4 {
+	font-size: 40px;
+}

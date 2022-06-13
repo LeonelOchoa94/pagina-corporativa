@@ -1,5 +1,9 @@
 .nav {
 	background-color: transparent;
+	/* position: sticky;
+	top: 0;
+	background: rgb(252, 213, 162);
+	background: linear-gradient(90deg, rgba(252, 213, 162, 1) 0%, rgba(255, 211, 208, 1) 100%); */
 }
 
 .navegador {
@@ -41,7 +45,7 @@
 
 .navegador li a:hover,
 a:focus {
-	color: #c63f17;
+	color: #fa6257;
 	font-weight: bold;
 	background-size: 100% 2px;
 }

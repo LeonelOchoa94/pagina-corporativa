@@ -4,7 +4,7 @@ import './styles.css';
 export const Navbar = () => {
 	return (
 		<>
-			<nav className='nav container d-flex justify-content-between'>
+			<nav className='nav container d-flex justify-content-between sticky'>
 				<div className='d-flex'>
 					<h3>GoingOut</h3>
 					<div className='navegador'>

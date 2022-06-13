@@ -3,7 +3,7 @@ import './styles.css';
 export const Intro = () => {
 	return (
 		<div className='d-flex container intro'>
-			<div className='title'>
+			<div className='title-intro'>
 				<h1>
 					La nueva aplicación para reservar mesa en tu restaurant favorito!
 				</h1>
