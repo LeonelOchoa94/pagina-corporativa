@@ -1,0 +1,18 @@
+.contactos {
+	margin-bottom: 20px;
+}
+
+.contacto {
+	display: flex;
+	justify-content: center;
+	width: 60%;
+	background-color: #ff8c84;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.contacto form {
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

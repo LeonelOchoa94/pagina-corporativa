@@ -3,7 +3,7 @@ import './styles.css';
 export const Equipo = () => {
 	return (
 		<>
-			<div className='container mb-3'>
+			<div className='container mb-3' data-aos='fade-up' data-aos-duration='4000'>
 				<h1 className='title-equipo'>La gente detrás de la magia:</h1>
 				<div className='perfiles container'>
 					<div className='perfil-izquierda' data-aos='fade-up' data-aos-anchor-placement='center-center'>
