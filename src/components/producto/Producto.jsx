@@ -5,16 +5,16 @@ import 'animate.css';
 export const Producto = () => {
 	return (
 		<>
-			<div className='title-producto container' data-aos='fade-up' data-aos-duration='4000'>
+			<div id='#producto' className='title-producto container' data-aos='fade-up' data-aos-duration='4000'>
 				<h1>Nuestro Producto</h1>
-
+				<hr />
 				<div>
 					<h3 className='contenido-producto'>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam ratione ducimus, sint veniam saepe corrupti
-						in autem atque, molestias fuga temporibus voluptatum. Ullam accusantium quo culpa id perferendis
-						perspiciatis enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi assumenda aspernatur ea
-						facere voluptates ut sapiente debitis quam hic non officia tempore aliquid, neque deserunt, sequi excepturi
-						alias nemo cupiditate.
+						Producto de la pandemia, muchas actividades se hicieron de forma digital y se explotaron mercados que hasta
+						ese momento no habian sido explotados. En corcodancia con esta situacion, decidimos crear esta aplicación
+						para satisfacer una necesidad que hasta hoy, no ha sido satisfecha. Por esta razon creamos GoingOut, la
+						nueva aplicación que te permite reservar una mesa en tu bar o restaurant favorito ¡sin moverte de la
+						comodidad de tu sillón!
 					</h3>
 				</div>
 

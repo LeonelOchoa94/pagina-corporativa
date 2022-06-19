@@ -1,9 +1,9 @@
 .title-equipo {
-	font-size: 4rem;
-	text-decoration: underline;
+	font-size: 3rem;
 	display: flex;
 	justify-content: center;
 	width: 100%;
+	margin-top: 1rem;
 }
 
 .perfiles {
@@ -16,6 +16,7 @@
 	display: flex;
 	justify-content: center;
 	margin-left: 100px;
+	margin-bottom: 50px;
 }
 
 .perfil-derecha {
@@ -23,6 +24,7 @@
 	display: flex;
 	justify-content: center;
 	margin-left: 100px;
+	margin-bottom: 50px;
 }
 
 .perfil-derecha img {

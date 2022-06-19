@@ -1,15 +1,14 @@
 .title-producto h1 {
 	font-size: 4rem;
-	text-decoration: underline;
+
 	display: flex;
 	justify-content: center;
-	margin-top: 20rem;
+	margin-top: 5rem;
 	width: 100%;
 }
 
 .pasos {
 	font-size: 4rem;
-	text-decoration: underline;
 	display: flex;
 	justify-content: center;
 	margin-bottom: 5rem;
@@ -22,7 +21,6 @@
 
 .title-uso {
 	font-size: 3rem;
-	text-decoration: underline;
 	display: flex;
 	justify-content: center;
 	width: 100%;

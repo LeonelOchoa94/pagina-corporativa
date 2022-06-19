@@ -3,7 +3,7 @@ import './styles.css';
 export const Equipo = () => {
 	return (
 		<>
-			<div className='container mb-3' data-aos='fade-up' data-aos-duration='4000'>
+			<div className='container mb-3' data-aos='fade-up' data-aos-duration='1000'>
 				<h1 className='title-equipo'>La gente detrás de la magia:</h1>
 				<div className='perfiles container'>
 					<div className='perfil-izquierda' data-aos='fade-up' data-aos-anchor-placement='center-center'>
@@ -47,7 +47,7 @@ export const Equipo = () => {
 							<hr />
 							<h3>
 								Estudiante de la carrera Analista de Sistemas en la escuela de medios audiovisuales Da Vinci.
-								Actualmente desempeña la tarea de pelado lame culos en alguna empresa.
+								Actualmente desempeña tareas administrativas en Trasa.
 							</h3>
 						</div>
 					</div>
@@ -67,11 +67,6 @@ export const Equipo = () => {
 						/>
 					</div>
 				</div>
-				<h1>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum assumenda velit officiis incidunt. Hic
-					dignissimos ducimus explicabo saepe culpa alias temporibus excepturi sit recusandae consectetur maxime,
-					aliquid, voluptate vero!
-				</h1>
 			</div>
 		</>
 	);

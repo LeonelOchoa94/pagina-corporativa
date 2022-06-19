@@ -1,0 +1,15 @@
+.title-nosotros h1 {
+	font-size: 4rem;
+	display: flex;
+	justify-content: center;
+	margin-top: 5rem;
+	width: 100%;
+}
+
+.title-nosotros h4 {
+	font-size: 3rem;
+}
+
+.contenido-nosotros {
+	margin-top: 5px;
+}
