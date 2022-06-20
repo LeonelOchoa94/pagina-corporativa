@@ -4,7 +4,8 @@ export const Equipo = () => {
 	return (
 		<>
 			<div id='equipo' className='container mb-3' data-aos='fade-up' data-aos-duration='1000'>
-				<h1 className='title-equipo'>La gente detrás de la magia:</h1>
+				<h1 className='title-equipo'>El equipo detrás de la magia</h1>
+				<hr />
 				<div className='perfiles container'>
 					<div className='perfil-izquierda' data-aos='fade-up' data-aos-anchor-placement='center-center'>
 						<img
@@ -47,7 +48,7 @@ export const Equipo = () => {
 							<hr />
 							<h3>
 								Estudiante de la carrera Analista de Sistemas en la escuela de medios audiovisuales Da Vinci.
-								Actualmente desempeña tareas administrativas en Trasa.
+								Actualmente desempeña tareas en el área de gestión en Trasa.
 							</h3>
 						</div>
 					</div>

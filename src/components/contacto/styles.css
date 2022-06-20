@@ -5,7 +5,7 @@
 .contacto {
 	display: flex;
 	justify-content: center;
-	width: 60%;
+	width: 100%;
 	background-color: #ff8c84;
 	border-radius: 5px;
 	padding: 20px;
@@ -15,4 +15,14 @@
 	width: 80%;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.contactos h1 {
+	font-size: 4rem;
+	display: flex;
+	justify-content: center;
+	margin-top: 5rem;
+	width: 100%;
+	font-style: italic;
+	font-weight: bolder;
 }

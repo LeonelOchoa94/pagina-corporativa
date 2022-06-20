@@ -17,17 +17,11 @@ export const Navbar = () => {
 									<a href='#nosotros'>Sobre nosotros</a>
 								</li>
 								<li>
-									<a href='#equipo'>Equipo</a>
-								</li>
-								<li>
 									<a href='#producto'>Nuestro producto</a>
 								</li>
 								<li>
 									<a href='#contacto'>Contacto</a>
 								</li>
-								{/* <li>
-									<a href='#experiencia'>Clientes</a>
-								</li> */}
 							</ul>
 						</div>
 					</div>

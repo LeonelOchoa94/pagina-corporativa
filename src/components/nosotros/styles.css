@@ -2,14 +2,24 @@
 	font-size: 4rem;
 	display: flex;
 	justify-content: center;
-	margin-top: 5rem;
+	margin-top: 3rem;
 	width: 100%;
+	font-weight: bold;
+	font-style: italic;
 }
 
 .title-nosotros h4 {
 	font-size: 3rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-weight: bold;
+	font-style: italic;
+}
+.title-nosotros p {
+	text-align: justify;
 }
 
 .contenido-nosotros {
 	margin-top: 5px;
+	font-style: italic;
 }

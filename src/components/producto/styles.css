@@ -1,10 +1,11 @@
 .title-producto h1 {
 	font-size: 4rem;
-
+	font-style: italic;
 	display: flex;
 	justify-content: center;
 	margin-top: 5rem;
 	width: 100%;
+	font-weight: bolder;
 }
 
 .pasos {
@@ -13,10 +14,15 @@
 	justify-content: center;
 	margin-bottom: 5rem;
 	width: 100%;
+	font-style: italic;
+	text-align: justify;
+	font-weight: bolder;
 }
 
 .contenido-producto {
 	margin-bottom: 5rem;
+	font-style: italic;
+	text-align: justify;
 }
 
 .title-uso {
@@ -24,6 +30,7 @@
 	display: flex;
 	justify-content: center;
 	width: 100%;
+	font-style: italic;
 }
 
 .paso-izq {
@@ -35,6 +42,7 @@
 .paso-izq h4 {
 	font-size: 40px;
 	width: 40%;
+	font-style: italic;
 }
 
 .paso-der {
@@ -43,11 +51,13 @@
 	display: flex;
 	justify-content: flex-end;
 	margin-bottom: 10px;
+	font-style: italic;
 }
 
 .paso-der h4 {
 	font-size: 40px;
 	width: 40%;
+	font-style: italic;
 }
 
 .paso-centro {
@@ -56,9 +66,11 @@
 	display: flex;
 	justify-content: center;
 	margin-bottom: 100px;
+	font-style: italic;
 }
 .paso-centro h4 {
 	font-size: 40px;
+	font-style: italic;
 }
 
 /* TIMELINE
@@ -139,4 +151,9 @@
 	padding: 20px 30px;
 	background: #ff8c84;
 	border-radius: 6px;
+	font-style: italic;
+}
+
+.content h2 {
+	font-weight: bolder;
 }

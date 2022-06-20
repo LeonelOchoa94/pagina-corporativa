@@ -1,10 +1,10 @@
 body {
-   margin: 0, auto;
-   font-family: 'Roboto', sans-serif;
-   background: rgb(252, 213, 162);
-   background: linear-gradient(90deg, rgba(252, 213, 162, 1) 0%, rgba(255, 211, 208, 1) 100%);
+	margin: 0, auto;
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(252, 213, 162);
+	background: linear-gradient(90deg, rgba(252, 213, 162, 1) 0%, rgba(255, 211, 208, 1) 100%);
 }
 
 code {
-   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

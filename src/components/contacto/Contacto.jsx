@@ -5,6 +5,7 @@ export const Contacto = () => {
 		<>
 			<div className='container contactos justify-content-center '>
 				<h1>Contacto</h1>
+				<hr />
 				<div className='contacto  d-flex justify-content-center'>
 					<form>
 						<div class='mb-3'>

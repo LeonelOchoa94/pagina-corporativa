@@ -10,10 +10,8 @@ export const Producto = () => {
 				<hr />
 				<div>
 					<h3 className='contenido-producto'>
-						Producto de la pandemia, muchas actividades se hicieron de forma digital y se explotaron mercados que hasta
-						ese momento no habian sido explotados. En corcodancia con esta situacion, decidimos crear esta aplicación
-						para satisfacer una necesidad que hasta hoy, no ha sido satisfecha. Por esta razon creamos GoingOut, la
-						nueva aplicación que te permite reservar una mesa en tu bar o restaurant favorito ¡sin moverte de la
+						Con la intension de satisfacer una necesidad que hasta ahora no habia sido cubierta, decidimos crear Going
+						Out, la primera aplicación que te permite reservar una mesa en tu restaurant o bar favorito ¡desde la
 						comodidad de tu sillón!
 					</h3>
 				</div>
@@ -61,8 +59,8 @@ export const Producto = () => {
 						data-aos-offset='300'
 						data-aos-easing='ease-in-sine'>
 						<div class='content'>
-							<h2>LISTO!</h2>
-							<h2>Tu reserva quedó confirmada y podrás visualizarla en la aplicación</h2>
+							<h2>¡LISTO!</h2>
+							<h2>Tu reserva se confirmó correctamente y ya podes empezar a disfrutar de tu salida</h2>
 						</div>
 					</div>
 				</div>
