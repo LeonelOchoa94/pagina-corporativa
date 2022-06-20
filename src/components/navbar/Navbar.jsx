@@ -5,26 +5,29 @@ export const Navbar = () => {
 	return (
 		<>
 			<div className='nav sticky-top'>
-				<nav className='sticky-top container d-flex justify-content-between'>
+				<nav className='nav container d-flex justify-content-between'>
 					<div className='d-flex'>
 						<h3>GoingOut</h3>
 						<div className='navegador'>
 							<ul>
 								<li>
+									<a href='#home'>Home</a>
+								</li>
+								<li>
 									<a href='#nosotros'>Sobre nosotros</a>
+								</li>
+								<li>
+									<a href='#equipo'>Equipo</a>
 								</li>
 								<li>
 									<a href='#producto'>Nuestro producto</a>
 								</li>
 								<li>
-									<a href='#conocimiento'>Equipo</a>
+									<a href='#contacto'>Contacto</a>
 								</li>
-								<li>
-									<a href='#experiencia'>Contacto</a>
-								</li>
-								<li>
+								{/* <li>
 									<a href='#experiencia'>Clientes</a>
-								</li>
+								</li> */}
 							</ul>
 						</div>
 					</div>

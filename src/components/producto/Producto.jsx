@@ -5,7 +5,7 @@ import 'animate.css';
 export const Producto = () => {
 	return (
 		<>
-			<div id='#producto' className='title-producto container' data-aos='fade-up' data-aos-duration='4000'>
+			<div id='producto' className='title-producto container' data-aos='fade-up' data-aos-duration='4000'>
 				<h1>Nuestro Producto</h1>
 				<hr />
 				<div>

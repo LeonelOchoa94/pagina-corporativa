@@ -5,7 +5,7 @@ import 'animate.css';
 export const Nosotros = () => {
 	return (
 		<>
-			<div className='container title-nosotros' data-aos='fade-up' data-aos-duration='4000'>
+			<div id='nosotros' className='container title-nosotros' data-aos='fade-up' data-aos-duration='4000'>
 				<h1>Sobre nosotros</h1>
 				<hr />
 				<h3 className='contenido-nosotros'>
@@ -16,7 +16,7 @@ export const Nosotros = () => {
 						mesas.
 					</p>
 					<h4>Nuestro objetivo:</h4>
-					<p></p>
+					<p>Nuestro primer objetivo es dar a conocer la aplicación, </p>
 				</h3>
 			</div>
 		</>
