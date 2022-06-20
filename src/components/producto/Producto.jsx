@@ -10,7 +10,7 @@ export const Producto = () => {
 				<hr />
 				<div>
 					<h3 className='contenido-producto'>
-						Con la intension de satisfacer una necesidad que hasta ahora no habia sido cubierta, decidimos crear Going
+						Con la intención de satisfacer una necesidad que hasta ahora no había sido cubierta, decidimos crear Going
 						Out, la primera aplicación que te permite reservar una mesa en tu restaurant o bar favorito ¡desde la
 						comodidad de tu sillón!
 					</h3>

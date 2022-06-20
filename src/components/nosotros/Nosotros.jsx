@@ -8,7 +8,7 @@ export const Nosotros = () => {
 			<div id='nosotros' className='container title-nosotros' data-aos='fade-up' data-aos-duration='4000'>
 				<h1>Sobre nosotros</h1>
 				<hr />
-				<h3 className='contenido-nosotros'>
+				<h3 className='contenido-nosotros' data-aos='fade-up' data-aos-duration='4000'>
 					<h4>Nuestra misión </h4>
 					<p>
 						A partir de la pandemia, fue necesario adaptar todo para hacerlo a distancia. Es por esto que optamos por

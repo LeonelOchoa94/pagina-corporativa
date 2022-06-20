@@ -9,6 +9,10 @@
 	align-items: center;
 }
 
+.animate__animated.animate__fadeInDown {
+	--animate-duration: 1s;
+}
+
 .intro h1 {
 	font-size: 65px;
 	font-family: 'Nunito', sans-serif;

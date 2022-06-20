@@ -26,3 +26,12 @@
 	font-style: italic;
 	font-weight: bolder;
 }
+
+.btn-enviar {
+	background-color: rgba(252, 213, 162, 1);
+}
+
+.btn-enviar:hover {
+	background-color: rgba(255, 211, 208, 1);
+	border-color: transparent;
+}

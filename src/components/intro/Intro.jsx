@@ -1,10 +1,11 @@
 import './styles.css';
+import 'animate.css';
 
 export const Intro = () => {
 	return (
 		<>
 			<div id='home'>
-				<div className='d-flex container intro'>
+				<div className='d-flex container intro animate__animated animate__fadeInDown'>
 					<div className='title-intro'>
 						<h1>La nueva aplicación para reservar mesa en tu restaurant favorito!</h1>
 					</div>
