@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 export const Navbar = () => {
@@ -25,14 +26,9 @@ export const Navbar = () => {
 							</ul>
 						</div>
 					</div>
-					<div className='buttons'>
-						<button className='btn btn-secondary' disabled>
-							Sign In
-						</button>
-						<button className='btn btn-outline-secondary' disabled>
-							Sign Up
-						</button>
-					</div>
+					<Link to='signIn' className='btn btn-secondary'>
+						Sign In
+					</Link>
 				</nav>
 			</div>
 		</>
